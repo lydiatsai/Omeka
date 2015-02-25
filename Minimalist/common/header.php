@@ -28,7 +28,7 @@
 
     <!-- JavaScripts -->
     <?php 
-    queue_js_file(array('jquery-accessibleMegaMenu', 'main', 'globals'));
+    queue_js_file(array('jquery1-1', 'jquery-accessibleMegaMenu', 'main', 'globals'));
     echo head_js(); 
     ?>
 </head>
