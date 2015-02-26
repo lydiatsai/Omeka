@@ -51,10 +51,7 @@
 <?php echo foot(); ?>
 
 <script type="text/javascript">
-$('#image1').css("display","none");
-$('#thumb2').on('click', function(){$('#image1').hide();})
-$('#thumb2').on('click', function(){$('#image1').hide();})
-$('#thumb2').on('click', function(){$('#image2').show();})
-$('#thumb1').on('click', function(){$('#image1').show();})
-$('#thumb1').on('click', function(){$('#image2').hide();})
+$('#image2').css("display","none");
+$('#thumb2').on('click', function(){$('#image1').hide();$('#image2').show();})
+$('#thumb1').on('click', function(){$('#image1').show();$('#image2').hide();})
 </script>
