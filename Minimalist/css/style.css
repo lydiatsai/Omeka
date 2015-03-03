@@ -517,14 +517,31 @@ body {
 }
 
 .element-set,
-.item,
-.element,
 .collection,
 .exhibit,
 .hTagcloud {
   padding: 1em 0;
   overflow: hidden;
   clear: both;
+}
+
+.item
+
+{
+  overflow: hidden;
+  float: left;
+  margin: 0em 1em 0em 0em;
+
+}
+
+
+.element
+{
+  overflow: hidden;
+  float: left;
+  margin: 0em 2em 0em 0em;
+  width: 45%;
+
 }
 
 #featured-item,
@@ -2033,3 +2050,9 @@ body.files .item-file {
     font-style: italic;
   }
 }
+
+/*Custom CSS*/
+
+/*CSS for item type metadata */
+
+#costume-item-type-metadata-image {margin: 0em 0em 100% 0em;}
