@@ -28,11 +28,11 @@ $sortLinks[__('Date Added')] = 'added';
 
 <?php foreach (loop('items') as $item): ?>
 <div class="item hentry">
-    <h2><?php echo link_to_item(metadata('item', array('Dublin Core', 'Title')), array('class'=>'permalink')); ?></h2>
+    <!--<h2><?php echo link_to_item(metadata('item', array('Dublin Core', 'Title')), array('class'=>'permalink')); ?></h2> -->
     <div class="item-meta">
     <?php if (metadata('item', 'has files')): ?>
     <div class="item-img">
-        <?php echo link_to_item(item_image('square_thumbnail')); ?>
+        <?php echo link_to_item(item_image('thumbnail')); ?> <!-- changes square_thumbnail to thumbnail -->
     </div>
     <?php endif; ?>
 
@@ -42,11 +42,11 @@ $sortLinks[__('Date Added')] = 'added';
     </div>
     <?php endif; ?>
 
-    <?php if (metadata('item', 'has tags')): ?>
+    <!--<?php if (metadata('item', 'has tags')): ?>
     <div class="tags"><p><strong><?php echo __('Tags'); ?>:</strong>
         <?php echo tag_string('items'); ?></p>
     </div>
-    <?php endif; ?>
+    <?php endif; ?> -->
 
     <?php fire_plugin_hook('public_items_browse_each', array('view' => $this, 'item' =>$item)); ?>
 
