@@ -601,7 +601,7 @@ body {
 #featured-collection img,
 #featured-exhibit img,
 #recent-items img {
-  float: right;
+  float: left; /* was right */
 }
 
 .intro {
@@ -649,7 +649,7 @@ blockquote {
   text-decoration: none;
 }
 .view-items-link a:active {
-  background-color: #BE75CB;
+  background-color: #D81E05; /* was BE75CB */
 }
 
 #outputs {
@@ -703,7 +703,7 @@ h6 {
 }
 
 #site-title {
-  color: #5C3F8D;
+  color: #D81E05;  /* was 5C3F8D */
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
@@ -713,7 +713,7 @@ h6 {
 }
 #site-title a {
   text-decoration: none;
-  color: #5C3F8D;
+  color: #D81E05; /* was 5C3F8D */
 }
 
 /* -------------------------------------------------------------------------*/
@@ -726,13 +726,13 @@ a:visited {
   color: #8164b2;
 }
 a:focus {
-  color: #5C3F8D;
+  color: #D81E05;  /* was 5C3F8D */
 }
 a:hover {
   color: #c170d0;
 }
 a:active {
-  color: #BE75CB;
+  color: #D81E05; /* was BE75CB */
 }
 a:hover {
   text-decoration: underline;
@@ -854,7 +854,7 @@ a:hover {
 .pagination .pagination_previous a:active,
 .pagination .previous-page a:active,
 .pagination .next-page a:active {
-  background-color: #BE75CB;
+  background-color: #D81E05; /* was BE75CB */ 
 }
 
 .pagination_next a,
@@ -926,7 +926,7 @@ a:hover {
   text-decoration: none;
 }
 .item-pagination .next a:active, .item-pagination .previous a:active {
-  background-color: #BE75CB;
+  background-color: #D81E05; /* was BE75CB */
 }
 
 #sort-links {
@@ -967,7 +967,7 @@ a:hover {
   background-color: #eaeaea;
 }
 #top-nav .nav-menu .active {
-  background-color: #8164b2;
+  background-color: #D81E05;  /* was 8164b2 */
 }
 #top-nav .nav-menu .active a {
   color: white;
@@ -984,7 +984,7 @@ a:hover {
   padding: 1em 0 1em 1em;
 }
 #top-nav li a:hover {
-  background-color: #684B98;
+  background-color: #D81E05; /* was 684B98 */
   color: white;
   text-decoration: none;
 }
@@ -1073,14 +1073,14 @@ button,
 input[type=submit]:hover,
 button:hover,
 .button:hover {
-  background-color: #684B98;
+  background-color: #D81E05; /* was 684B98 */
   color: white;
   text-decoration: none;
 }
 input[type=submit]:active,
 button:active,
 .button:active {
-  background-color: #BE75CB;
+  background-color: #D81E05; /* was BE75CB */
 }
 
 .button:focus {
@@ -1248,7 +1248,7 @@ th,
 td {
   border-bottom: 1px solid #ddd;
   margin: 0;
-  padding: 0.5em 0;
+  padding: 0.5em 0.5em;
 }
 
 th {
@@ -1362,7 +1362,7 @@ body.files .item-file {
 }
 
 .image {
-  float: right;
+  float: left;
   margin: 0 0 1.5em 1.5em;
   height: 7.5em;
 }
@@ -1441,12 +1441,12 @@ body.files .item-file {
   display: initial;
 }
 #simple-pages-breadcrumbs a:hover {
-  background-color: #684B98;
+  background-color: #D81E05; /* was 684B98 */
   color: white;
   text-decoration: none;
 }
 #simple-pages-breadcrumbs a:active {
-  background-color: #BE75CB;
+  background-color: #D81E05; /* was BE75CB */
 }
 
 /* -------------------------------------------------------------------------*/
@@ -1531,7 +1531,7 @@ body.files .item-file {
 }
 .exhibits.show #exhibit-pages .current-page {
   display: block;
-  background-color: #BE75CB;
+  background-color: #D81E05; /* was BE75CB */
   padding: .5em;
   color: white;
 }
@@ -1566,12 +1566,12 @@ body.files .item-file {
   margin-bottom: 0;
 }
 .exhibits.show #exhibit-pages #secondary-nav ul li a:hover {
-  background-color: #684B98;
+  background-color: #D81E05; /* was 684B98 */
   color: white;
   text-decoration: none;
 }
 .exhibits.show #exhibit-pages #secondary-nav ul li a:active {
-  background-color: #BE75CB;
+  background-color: #D81E05; /* was BE75CB */
 }
 .exhibits.show #exhibit-pages #secondary-nav > li:nth-child(2) {
   display: block;
@@ -1624,12 +1624,12 @@ body.files .item-file {
   border: 0;
 }
 .exhibits.show #exhibit-child-pages .exhibit-child-nav li a:hover {
-  background-color: #684B98;
+  background-color: #D81E05; /* was 684B98 */
   color: white;
   text-decoration: none;
 }
 .exhibits.show #exhibit-child-pages .exhibit-child-nav li a:active {
-  background-color: #BE75CB;
+  background-color: #D81E05; /* was BE75CB */
 }
 .exhibits.show #exhibit-child-pages .exhibit-child-nav li a:before {
   content: "\2014\0020";
@@ -1827,7 +1827,7 @@ body.files .item-file {
        navigation item */
   }
   #top-nav .nav-menu .active {
-    background-color: #8164b2;
+    background-color: #D81E05; /* was 8164b2 */
   }
   #top-nav .nav-menu .active a {
     color: white;
@@ -1844,7 +1844,7 @@ body.files .item-file {
     color: #684B98;
   }
   #top-nav .nav-menu a:hover, #top-nav .nav-menu a:focus {
-    background-color: #684B98;
+    background-color: #D81E05; /* was 684B98 */
   }
   #top-nav .nav-menu .nav-item {
     list-style: none;
@@ -1856,7 +1856,7 @@ body.files .item-file {
     position: relative;
   }
   #top-nav .nav-menu .nav-item.active {
-    background-color: #8164b2;
+    background-color: #D81E05; /* was 8164b2 */
   }
   #top-nav .nav-menu .nav-item.active a {
     color: white;
@@ -1929,7 +1929,7 @@ body.files .item-file {
     padding: 0;
   }
   #top-nav .nav-menu .sub-nav.open li a {
-    color: #684B98;
+    color: #D81E05; /* was 684B98 */
   }
   #top-nav .nav-menu .sub-nav.open li a:hover {
     background-color: #cf9ad9;
