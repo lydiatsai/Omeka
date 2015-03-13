@@ -28,11 +28,12 @@ $sortLinks[__('Date Added')] = 'added';
 
 <?php foreach (loop('items') as $item): ?>
 <div class="item hentry">
-    <!--<h2><?php echo link_to_item(metadata('item', array('Dublin Core', 'Title')), array('class'=>'permalink')); ?></h2> -->
+    <!--<h2><?php echo link_to_item(metadata('item', array('Dublin Core', 'Title')), array('class'=>'permalink')); ?></h2>-->
     <div class="item-meta">
     <?php if (metadata('item', 'has files')): ?>
     <div class="item-img">
-        <?php echo link_to_item(item_image('thumbnail')); ?> <!-- changed square_thumbnail to thumbnail -->
+        <?php echo link_to_item(item_image('thumbnail', array('alt' => metadata('item', array('Dublin Core', 'Title'))))); ?>
+        <!-- changed square_thumbnail to thumbnail and show title element in ALT instead of filename which is default -->
     </div>
     <?php endif; ?>
 

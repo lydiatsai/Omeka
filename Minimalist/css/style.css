@@ -644,7 +644,7 @@ blockquote {
   display: inline;
 }
 .view-items-link a:hover {
-  background-color: #684B98;
+  background-color: #004687; /* was 684B98 */
   color: white;
   text-decoration: none;
 }
@@ -719,17 +719,17 @@ h6 {
 /* -------------------------------------------------------------------------*/
 /* Links */
 a {
-  color: #684B98;
+  color: #004687; /* was 684B98 */
   text-decoration: none;
 }
 a:visited {
-  color: #8164b2;
+  color: #0066C6; /* was 8164b2 */
 }
 a:focus {
   color: #D81E05;  /* was 5C3F8D */
 }
 a:hover {
-  color: #c170d0;
+  color: #0084FF; /* was c170d0 */
 }
 a:active {
   color: #D81E05; /* was BE75CB */
@@ -846,7 +846,7 @@ a:hover {
 .pagination .pagination_previous a:hover,
 .pagination .previous-page a:hover,
 .pagination .next-page a:hover {
-  background-color: #684B98;
+  background-color: #004687; /* was 684B98 */
   color: white;
   text-decoration: none;
 }
@@ -921,7 +921,7 @@ a:hover {
   border: 0;
 }
 .item-pagination .next a:hover, .item-pagination .previous a:hover {
-  background-color: #684B98;
+  background-color: #004687; /* was 684B98 */
   color: white;
   text-decoration: none;
 }
@@ -993,7 +993,7 @@ a:hover {
 }
 #top-nav li a.open {
   color: white;
-  background-color: #684B98;
+  background-color: #004687; /* was 684B98 */
 }
 #top-nav .sub-nav {
   display: none;
@@ -1011,14 +1011,14 @@ a:hover {
   padding: 0;
 }
 #top-nav .sub-nav.open li a {
-  color: #684B98;
+  color: #004687; /* was 684B98 */
   padding: 1em;
   border-bottom: 1px solid white;
 }
 #top-nav .sub-nav.open li a:hover {
   color: white;
   text-decoration: none;
-  background-color: #cf9ad9;
+  background-color: #0084FF; /* was cf9ad9 */
 }
 #top-nav .sub-nav.open .active a {
   color: white;
@@ -1109,7 +1109,7 @@ button:active,
   position: absolute;
   top: 0;
   text-align: center;
-  color: #684B98;
+  color: #004687; /* was 684B98 */
 }
 #search-container .show-advanced:hover,
 #search-container button:hover {
@@ -1548,7 +1548,7 @@ body.files .item-file {
   margin: 0;
 }
 .exhibits.show #exhibit-pages #secondary-nav ul .current a {
-  background-color: #7453a9;
+  background-color: #D81E05; /* was #7453a9 */
   color: white;
 }
 .exhibits.show #exhibit-pages #secondary-nav ul li {
@@ -1659,7 +1659,7 @@ body.files .item-file {
 .exhibits.show #exhibit-page-navigation .current-page {
   clear: both;
   display: block;
-  background-color: #684B98;
+  background-color: #004687; /* was 684B98 */
   padding: .5em 0;
   color: white;
   margin-top: .5em;
@@ -1841,7 +1841,7 @@ body.files .item-file {
     padding: .5em;
   }
   #top-nav .nav-menu a:link, #top-nav .nav-menu a:visited {
-    color: #684B98;
+    color: #004687; /* was 684B98 */
   }
   #top-nav .nav-menu a:hover, #top-nav .nav-menu a:focus {
     background-color: #D81E05; /* was 684B98 */
@@ -1867,7 +1867,7 @@ body.files .item-file {
     padding: .5em 1em;
     margin: 0;
     border: 0;
-    color: #684B98;
+    color: #004687; /* was 684B98 */
   }
   #top-nav .nav-menu .nav-item > a:hover {
     color: white;
@@ -1877,10 +1877,10 @@ body.files .item-file {
   }
   #top-nav .nav-menu .nav-item > a:focus,
   #top-nav .nav-menu .nav-item > a.open {
-    background-color: #684B98;
+    background-color: #D81E05; /* was 684B98 */
   }
   #top-nav .nav-menu .nav-item > a.open {
-    background-color: #684B98;
+    background-color: #D81E05; /* was 684B98 */
     color: white;
     border-bottom: none;
     z-index: 1;
@@ -1892,7 +1892,7 @@ body.files .item-file {
     padding: 0;
     border: 0;
     margin: 0;
-    background-color: #BE75CB;
+    background-color: #0084FF; /* was BE75CB */
     z-index: 2;
     border: 1px solid #6e6e6e;
   }
@@ -1905,7 +1905,7 @@ body.files .item-file {
     background-color: #f7f7f7;
   }
   #top-nav .nav-menu .sub-nav.open .active a {
-    color: #684B98;
+    color: #004687; /* was 684B98 */
   }
   #top-nav .nav-menu .sub-nav.open .active a:hover {
     color: white;
@@ -1917,7 +1917,7 @@ body.files .item-file {
     padding: 0;
   }
   #top-nav .nav-menu .sub-nav.open ul a {
-    color: #684B98;
+    color: #004687; /* was 684B98 */
   }
   #top-nav .nav-menu .sub-nav.open ul a:before {
     content: "\2014\0020";
@@ -1932,11 +1932,11 @@ body.files .item-file {
     color: #D81E05; /* was 684B98 */
   }
   #top-nav .nav-menu .sub-nav.open li a:hover {
-    background-color: #cf9ad9;
+    background-color: #0084FF; /* was cf9ad9 */
     color: white;
   }
   #top-nav .nav-menu .sub-nav.open li a:focus {
-    background-color: #cf9ad9;
+    background-color: #0084FF; /* was cf9ad9 */
     color: white;
   }
 
