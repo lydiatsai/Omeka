@@ -407,8 +407,8 @@ table {
 /* Layout */
 #wrap {
   *zoom: 1;
-  max-width: 59em;
-  _width: 59em;
+  max-width: 85em; /* was 59 */
+  _width: 85em; /* was 59 */
   padding-left: 1em;
   padding-right: 1em;
   margin-left: auto;
