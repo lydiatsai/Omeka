@@ -657,9 +657,9 @@ blockquote {
 }
 
 footer {
-  padding: .5em 0;
+  /*padding: .5em 0; */
   overflow: auto;
-  border-top: 5px double #ddd;
+  border-top: 2px solid #ddd;
 }
 
 /* -------------------------------------------------------------------------*/
@@ -770,8 +770,12 @@ a:hover {
 
 .secondary-nav,
 #secondary-nav {
-  margin-bottom: 1em;
+  /*margin-bottom: 1em; */
+  margin-top: 1em;
   overflow: auto;
+  border: 2px dotted #D81E05;
+  background-color: #eaeaea;
+  padding: 0.5em;
 }
 .secondary-nav li,
 #secondary-nav li {
@@ -934,6 +938,7 @@ a:hover {
 }
 #sort-links .sort-label {
   float: left;
+  font-weight: bold;
 }
 #sort-links #sort-links-list {
   overflow: auto;
@@ -984,7 +989,7 @@ a:hover {
   padding: 1em 0 1em 1em;
 }
 #top-nav li a:hover {
-  background-color: #D81E05; /* was 684B98 */
+  background-color: #D81E05; /*COLOR WAS 684B98 */
   color: white;
   text-decoration: none;
 }
@@ -1171,7 +1176,7 @@ button:active,
 #item-filters ul {
   list-style-type: none;
   padding: 0;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em; /* was 1.5em */
 }
 #search-filters li,
 #item-filters li {
@@ -1293,6 +1298,12 @@ th {
   display: block;
   padding-right: 0;
 }
+
+/* ADDED */
+.outputs-label {
+  font-weight: bold;
+}
+
 .show #output-format-list {
   margin: 0;
   padding: 0;
@@ -1943,7 +1954,7 @@ body.files .item-file {
   #bottom-nav {
     display: block;
     overflow: auto;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em; */
   }
   #bottom-nav li {
     padding-right: 20px;
