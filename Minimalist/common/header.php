@@ -27,9 +27,9 @@
     ?>
 
     <!-- JavaScripts -->
-    <?php 
+    <?php
     queue_js_file(array('jquery1-1', 'jquery-accessibleMegaMenu', 'main', 'globals'));
-    echo head_js(); 
+    echo head_js();
     ?>
 </head>
 
@@ -52,13 +52,14 @@
                 <?php echo search_form(); ?>
                 <?php endif; ?>
             </div>
-            
+
+            <strong>What would you like to do?</strong>
             <nav id="top-nav">
                 <?php echo public_nav_main(); ?>
             </nav>
 
         </header>
-        
+
         <article id="content">
-        
+
             <?php fire_plugin_hook('public_content_top', array('view'=>$this)); ?>

@@ -9,7 +9,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 
 <?php echo pagination_links(); ?>
 
-<?php if ($total_results > 0): ?>
+<!-- hidden at request of Lydia<?php if ($total_results > 0): ?>
 
 <?php
 $sortLinks[__('Title')] = 'Dublin Core,Title';
@@ -20,8 +20,8 @@ $sortLinks[__('Date Added')] = 'added';
     <span class="sort-label"><?php echo __('Sort by: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
 </div>
 
-<?php endif; ?>
-
+<?php endif; ?> -->
+<div class="clear"></div>
 <?php foreach (loop('items') as $item): ?>
 <div class="item hentry">
     <!--<h2><?php echo link_to_item(metadata('item', array('Dublin Core', 'Title')), array('class'=>'permalink')); ?></h2>-->
@@ -54,29 +54,36 @@ $sortLinks[__('Date Added')] = 'added';
 <?php echo pagination_links(); ?>
 
 <div class="clear"></div>
-<nav class="items-nav navigation secondary-nav">
-    <div><strong>Filter by</strong>
+<nav class="facet-nav"><!-- formerly items-nav navigation secondary-nav -->
+    <h3>Filter by <span style="font-size: 0.8em">[<a href="http://10.129.129.17/omeka/items/browse">Clear Filters</a>]</h3>
     <ul>
-    	<li>Gender: <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=67&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=female">Female</a> | <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=67&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=male">Male</a></li><br />
-    	<li>Type: <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=main+dress">Main Dress</a>
-    		| <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=outerwear">Outerwear</a>
-    		| <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=purpose+wear">Purpose Wear</a>
-    		| <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=separates">Separates</a>
-    		| <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=sportswear">Sportswear</a>
-    		| <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=accessories">Accessories</a>
-    		| <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=underwear">Underwear</a>
-    		| <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=headgear">Headgear</a>
-    		| <a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=footwear">Footwear</a></li><br />
-    	<li>Style Period / Decade: (forthcoming)</li><br />
-    	<li>Colour: (forthcoming)</li>
+    	<li><strong>Type<strong>
+    	  <ul>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=main+dress">Main Dress</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=outerwear">Outerwear</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=purpose+wear">Purpose Wear</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=separates">Separates</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=sportswear">Sportswear</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=accessories">Accessories</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=underwear">Underwear</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=headgear">Headgear</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=68&advanced%5B0%5D%5Btype%5D=is+exactly&advanced%5B0%5D%5Bterms%5D=footwear">Footwear</a></li>
+  	      </ul>
+    	</li>
+    	<li><strong>Colour<strong></li>
+    	<li><strong>Decade<strong></li>
+    	<li><strong>Designer<strong></li>
+    	<li><strong>Donor<strong></li>
+    	<li><strong>Nationality<strong></li>
     </ul>
-    <br /><?php echo public_nav_items(); ?>
-    </div>
+    <div class="clear"></div>
+    <!--<?php echo public_nav_items(); ?> -->
+  </div>
 </nav>
 
-<div id="outputs">
+<!-- hidden at request of Lydia<div id="outputs">
     <span class="outputs-label"><?php echo __('Output Formats'); ?></span>
-    <?php echo output_format_list(false); ?>
+    <?php echo output_format_list(false); ?>-->
 </div>
 
 <?php fire_plugin_hook('public_items_browse', array('items'=>$items, 'view' => $this)); ?>

@@ -796,6 +796,66 @@ a:hover {
   content: "\2014\0020";
 }
 
+/* NEW facet-nav */
+
+.facet-nav ul,
+#facet-nav ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+.facet-nav li,
+#facet-nav li
+{
+  width: 16%;
+  display: block;
+  float: left;
+  padding: 0.2em;
+  background-color: #eaeaea;
+  border: 1px dotted #D81E05;
+}
+
+.facet-nav li:hover, a:hover,
+#facet-nav li:hover, a:hover
+{background-color: #fff;}
+
+.facet-nav li ul,
+#facet-nav li ul
+{
+   display: none;  /* Hides the drop-down menu */
+   height: auto;									
+   margin: 0; /* Aligns drop-down box underneath the menu item */
+   padding: 0; /* Aligns drop-down box underneath the menu item */			
+}				
+
+.facet-nav li:hover ul,
+#facet-nav li:hover ul
+{
+  display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+.facet-nav li ul li,
+#facet-nav li ul li
+{ 
+  float: none;
+  font-weight: normal;
+  border: none;
+  background-color: #fff;
+  width:100%;
+} 
+
+.facet-nav li ul li:hover,
+#facet-nav li ul li:hover
+{
+  background-color: #eaeaea;
+}
+
+.facet-nav li ul li a:hover,
+#facet-nav li ul li a:hover
+{
+  background-color: #eaeaea;
+}
+
 .pagination {
   margin: 0;
   padding: 0;
@@ -969,7 +1029,7 @@ a:hover {
 }
 #top-nav .nav-menu {
   overflow: auto;
-  background-color: #eaeaea;
+  background-color: #eaeaea; 
 }
 #top-nav .nav-menu .active {
   background-color: #D81E05;  /* was 8164b2 */

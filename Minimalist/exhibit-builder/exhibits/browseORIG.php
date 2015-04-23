@@ -2,12 +2,11 @@
 $title = __('Browse Exhibits');
 echo head(array('title' => $title, 'bodyclass' => 'exhibits browse'));
 ?>
-
 <div id="primary">
 <h1><?php echo $title; ?> <?php echo __('(%s total)', $total_results); ?></h1>
 <?php if (count($exhibits) > 0): ?>
 
-<!--<nav class="navigation secondary-nav">
+<nav class="navigation secondary-nav">
     <?php echo nav(array(
         array(
             'label' => __('Browse All'),
@@ -18,7 +17,7 @@ echo head(array('title' => $title, 'bodyclass' => 'exhibits browse'));
             'uri' => url('exhibits/tags')
         )
     )); ?>
-</nav> -->
+</nav>
 
 <?php echo pagination_links(); ?>
 
@@ -28,7 +27,6 @@ echo head(array('title' => $title, 'bodyclass' => 'exhibits browse'));
     <div class="exhibit <?php if ($exhibitCount%2==1) echo ' even'; else echo ' odd'; ?>">
         <h2><?php echo link_to_exhibit(); ?></h2>
         <?php if ($exhibitImage = record_image($exhibit, 'thumbnail')): ?> <!-- was square_thumbnail, only applies to main exhibit page image in list -->
-
             <?php echo exhibit_builder_link_to_exhibit($exhibit, $exhibitImage, array('class' => 'image')); ?>
         <?php endif; ?>
         <?php if ($exhibitDescription = metadata('exhibit', 'description', array('no_escape' => true))): ?>
