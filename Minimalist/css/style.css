@@ -1556,6 +1556,7 @@ body.files .item-file {
   padding: 0;
   margin: 1em 0 0 0;
   list-style-type: none;
+  display: inline;
 }
 .exhibits.summary #exhibit-pages ul li {
   padding: .5em 0;
@@ -1601,7 +1602,7 @@ body.files .item-file {
   margin-left: 2em;
 }
 .exhibits.show #exhibit-pages .current-page {
-  display: block;
+  display: none; /* block; */
   background-color: #D81E05; /* was BE75CB */
   padding: .5em;
   color: white;
@@ -1728,8 +1729,8 @@ body.files .item-file {
   margin: .5em 0;
 }
 .exhibits.show #exhibit-page-navigation .current-page {
-  clear: both;
-  display: block;
+  clear: both; 
+  display: none; /* block */
   background-color: #004687; /* was 684B98 */
   padding: .5em 0;
   color: white;
@@ -1841,11 +1842,11 @@ body.files .item-file {
   }
 
   .exhibits.summary #exhibit-pages {
-    width: 32.20339%;
-    float: right;
+    width: 32.20339%; /*  */
+    float: left; /* right */
     margin-right: 0;
     *margin-left: -1em;
-    display: inline;
+    display: block; /* inline */
   }
 
   /* -------------------------------------------------------------------------*/
