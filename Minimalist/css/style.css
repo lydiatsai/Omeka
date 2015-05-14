@@ -833,6 +833,7 @@ a:hover {
 #facet-nav li:hover ul
 {
   display: block; /* Displays the drop-down box when the menu item is hovered over */
+  z-index: 50; /* TRY */
 }
 .facet-nav li ul li,
 #facet-nav li ul li
