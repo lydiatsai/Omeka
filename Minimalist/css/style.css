@@ -683,26 +683,29 @@ h5, h6 {
 
 h1 {
   /* text-transform: uppercase; */
-  font-size: 36px; /* was 40 px*/
+  font-size: 26px; /* was 40 px; logo title is trebuchet 31*/
   clear: both;
   word-wrap: break-word;
+  font-weight: bold;
 }
 
 h2, #item-filters .collection {
-  font-size: 32px;
+  font-size: 22px; /*was 32*/
   text-transform: capitalize;
   border-top: 4px solid #ddd;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 18px; /* was 24*/
+  font-weight: bold;
 }
 
 h6 {
   font-size: italic;
 }
 
-#site-title {
+#site-title { /* NOT USED; using logo */
   color: #D81E05;  /* was 5C3F8D */
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
   /* text-transform: uppercase; */

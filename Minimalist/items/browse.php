@@ -21,7 +21,6 @@ $sortLinks[__('Date Added')] = 'added';
 </div>
 
 <?php endif; ?> -->
-<div class="clear"></div>
 <?php foreach (loop('items') as $item): ?>
 <div class="item hentry">
     <!--<h2><?php echo link_to_item(metadata('item', array('Dublin Core', 'Title')), array('class'=>'permalink')); ?></h2>-->
@@ -52,8 +51,7 @@ $sortLinks[__('Date Added')] = 'added';
 <?php endforeach; ?>
 
 <?php echo pagination_links(); ?>
-
-<div class="clear"></div>
+<div style="clear:both;"></div>
 <nav class="facet-nav"><!-- formerly items-nav navigation secondary-nav -->
     <h3>Filter by <span style="font-size: 0.8em">[<a href="http://10.129.129.17/omeka/items/browse">Clear Filters</a>]</h3>
     <ul>
@@ -238,15 +236,12 @@ $sortLinks[__('Date Added')] = 'added';
   	      </ul>
   	    </li>
     </ul>
-    <div class="clear"></div>
     <!--<?php echo public_nav_items(); ?> -->
-  </div>
 </nav>
 
 <!-- hidden at request of Lydia<div id="outputs">
     <span class="outputs-label"><?php echo __('Output Formats'); ?></span>
     <?php echo output_format_list(false); ?>-->
-</div>
 
 <?php fire_plugin_hook('public_items_browse', array('items'=>$items, 'view' => $this)); ?>
 

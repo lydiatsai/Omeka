@@ -53,7 +53,7 @@
                 <?php endif; ?>
             </div>
 
-            <strong>What would you like to do?</strong>
+			<div style="clear:both;"></div>
             <nav id="top-nav">
                 <?php echo public_nav_main(); ?>
             </nav>
