@@ -390,6 +390,7 @@ table {
 -- Navigation
 ---- General Nav
 ---- Mega-Menu Navigation
+---- Facet Nav *ADDED*
 -- Forms
 ---- Search
 ---- Advanced Search
@@ -803,7 +804,8 @@ a:hover {
 
 .facet-nav ul,
 #facet-nav ul
-{
+{ 
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -812,7 +814,8 @@ a:hover {
 #facet-nav li
 {
   width: 16%;
-  display: block;
+  border-bottom: none;
+  display: inline-block;
   float: left;
   padding: 0.2em;
   background-color: #eaeaea;

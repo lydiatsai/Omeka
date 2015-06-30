@@ -207,15 +207,181 @@ $sortLinks[__('Date Added')] = 'added';
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=bata+shoe+museum">Bata Shoe Museum</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=boswell-burr+estate">Boswell-Burr Estate</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=brian+wickens">Brian Wickens</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=bruce+berman">Bruce Berman</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=cara+nagey">Cara Nagey</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=carol+kay">Carol Kay</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=carol+outram">Carol Outram</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=carol+paasche">Carol Paasche</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=carol+ray">Carol Ray</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=cate+grober">Cate Grober</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=catherine+balfour">Catherine Balfour</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=catherine+nugent">Catherine Nugent</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=catherine+wright">Catherine Wright</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=cathy+willoughby">Cathy Willoughby</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=cbc">CBC</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=charlotte+graham">Charlotte Graham</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=charmaine+gooden">Charmaine Gooden</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=city+of+toronto+fashion+incubator">City of Toronto Fashion Incubator</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=claire+becker">Claire Becker</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=claire+haddad">Claire Haddad</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=clara+rife">Clara Rife</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=corine+conley">Corine Conley</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=cyrel+troster">Cyrel Troster</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=dale+peers">Dale Peers</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=denise+nott-bower">Denise Nott-Bower</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=dianne+slater">Dianne Slater</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=dominic+legori">Dominic Legori</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=doris+c+morrow+estate">Doris C. Morrow Estate</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=doris+williamson">Doris Williamson</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=dorothy+kirk">Dorothy Kirk</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=dorrie+howard">Dorrie Howard</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=douglas+chivers">Douglas Chivers</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=dr+m+c+dobbin">Dr. M. C. Dobbin</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=eco+fibre+inc">Eco Fibre Inc</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=edith+strauss">Edith Strauss</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=edna+moore">Edna Moore</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=eleanor+jeffery">Eleanor Jeffery</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=elizabeth+lundy">Elizabeth Lundy</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=eloise+lewis">Eloise Lewis</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=ethel+glinert">Ethel Glinert</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=evelyn+marshall">Evelyn Marshall</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=faye+o+gryzlo">Faye O'Gryzlo</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=florence+thomas">Florence Thomas</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=florentine+wallace">Florentine Wallace</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=franco+mirabelli">Franco Mirabelli</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=francoix+rioux">Francoix Rioux</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=gadabout+vintage+clothing">Gadabout Vintage Clothing</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=gail+beers+beare">Gail Beers Beare</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=gallery+of+costume">Gallery of Costume</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=gena+brookfield">Gena Brookfield</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=georgia+smith">Georgia Smith</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=gisela+hauer">Gisela Hauer</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=gwynette+Johnson">Gwynette Johnson</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=harriet+bunting">Harriet Bunting</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=hilda+mitz">Hilda Mitz</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=ida+m+hewitt">Ida M. Hewitt</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=ina+andre">Ina Andre</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=jackie+elling">Jackie Elling</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=jane+donohue">Jane Donohue</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=jane+newport">Jane Newport</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=janet+burney">Janet Burney</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=jean+peterson">Jean Peterson</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=jean+pierce">Jean Pierce</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=jennifer+mcquire">Jennifer McQuire</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=jim+alsop">Jim Alsop</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=jim+payne">Jim Payne</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=joan+robbins">Joan Robbins</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=joan+tooke"></a>Joan Tooke</li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=jonathan+walford">Jonathan Walford</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=josephine+sivell">Josephine Sivell</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=joy+jensen">Joy Jenson</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=joy+tyndall">Joy Tyndall</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=joy+waterhouse">Joy Waterhouse</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=joyce+sniderman">Joyce Sniderman</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=judith+fielder">Judith Fielder</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=judith+hilston">Judith Hilston</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=judy+stoffman">Judy Stoffman</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=julia+lean">Julia Lean</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=lida+baday">Lida Baday</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=marilyn+brooks">Marilyn Brooks</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=marilyn+lastman">Marilyn Lastman</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=june+werker">June Werker</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=karen+eluck">Karen Eluck</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=kate+maclean">Kate Maclean</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=laura+mcquillan">Laura McQuillan</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=leonard+kubas">Leonard Kubas</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=lillian+wright">Lillian Wright</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=linda+bunn">Linda Bunn</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=linda+livergrant">Linda Livergrant</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=linda+robinson">Linda Robinson</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=lois+gray">Lois Gray</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=lois+macdonald">Lois MacDonald</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=loni+gropper">Loni Gropper</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=loris+russell">Loris Russell</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=louise+graham">Louise Graham</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=lyn+aldrich">Lyn Aldrich</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=maggie+woodburn">Maggie Woodburn</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=margaret+hill">Margaret Hill</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=margaret+szucs">Margaret Szucs</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=marion+postlewaite">Marion Postlewaite</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=majorie+douglas">Majorie Douglas</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=marlise+van+praagh">Marlise Van Praagh</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=marnie+hunt">Marnie Hunt</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mary+blodgett">Mary Blodgett</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=marsha+brooks">Marsha Brooks</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mary+c+ham">Mary C. Ham</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mary+finlay">Mary Finlay</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mary+johnston">Mary Johston</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mary+lou+toms">Mary Lou Toms</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mary+mcgrath">Mary McGrath</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mary+smellie">Mary Smellie</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=maureen+hunt">Maureen Hunt</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=maureen+kennedy">Maureen Kennedy</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=melissa+campbell">Melissa Campbell</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mimran+group">Mimran Group Inc</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mitzi+beale">Mitzi Beale</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mona+campbell">Mona Campbell</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sykes">Mr. & Mrs. Sykes</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mr+richards">Mr. Richards</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+mcgregor">Mrs. G. McGregor</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+cohen">Mrs. Cohen</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=david+jane+atkins">Mrs. David (Jane) Atkins</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+douglas">Mrs. Douglas</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+wolfson">Mrs. F. Wolfson</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+gibson">Mrs. Gibson</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+harris">Mrs. Harris</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+marshall">Mrs. Marshall</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+lempriere">Mrs. R. Lempriere</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+richard+boxer">Mrs. Richard Boxer</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=mrs+s+r+long">Mrs. S. R. Long</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=myrna+levy"></a>Myrna Levy</li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=nancy+andrews">Nancy Andrews</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=nancy+mcguffin">Nancy McGuffin</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=nancy+ruth">Nancy Ruth</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=nina+budman">Nina Budman</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=nora+campbell">Nora Campbell</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=nora+creyhe">Nora Creyhe</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=norma+billes">Norma Billes</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=norma+frietag">Norma Frietag</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=norma+lepolski">Norma Lepolski</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=pat+harris">Pat Harris</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=patricia+armstrong">Patricia Armstrong</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=patricia+henning">Patricia Henning</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=patricia+saunders">Patricia Saunders</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=patty+simpson">Patty Simpson</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=paul+portelli">Paul Portelli</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=penny+potter">Penny Potter</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=peter+sandell">Peter Sandell</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=petra+soden">Petra Soden</a></li>
+			<li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=philip+giffen">Philip Giffin</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=r+wylie">R. Wylie</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=rita+dennis">Rita Dennis</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=rosalie+sharp">Rosalie Sharp</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=rose+bardwell">Rose Bardwell</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=rosemary+campsie">Rosemary Campsie</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sandra+beatie">Sandra Beatie</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sandra+beattie">Sandra Beattie</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sandra+grumett">Sandra Grumett</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sandy+dawber">Sandy Dawber</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sandy+head">Sandy Head</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sara+spieser">Sara Spieser</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sea+queen">Sea Queen of Canada</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sheila+aldoroty">Sheila Aldoroty</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sheila+patterson">Sheila Patterson</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=shirley+cheatley">Shirley Cheatley</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=shirley+dawe">Shirley Dawe</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=slava+corn">Slava Corn</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=sol+shiner">Sol Shiner</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=stephanie+paulson">Stephanie Paulson</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=susan+loi">Susan Loi</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=suttles+seawind">Suttles and Seawind</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=terry+spinola+campbell">Terry Spinola Campbell</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=theatre+aquarius">Theatre Aquarius</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=valerie+fine">Valerie Fine</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=veta+epstein">Veta Epstein</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=victoria+ollers">Victoria Ollers</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=wayne+norrison">Wayne Norrison</a></li>
+    	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=wendy+minto">Wendy Minto</a></li>
     	    <li><a href="http://10.129.129.17/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=113&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=stratford+festival+theatre">Stratford Festival Theatre</a></li>
   	      </ul>
   	    </li>
