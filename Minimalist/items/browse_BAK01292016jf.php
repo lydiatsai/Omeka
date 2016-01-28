@@ -8,7 +8,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 <?php echo item_search_filters(); ?>
 <nav class="facet-nav"><!-- formerly items-nav navigation secondary-nav -->
 <ul>
-	<li class="grey"><img src="https://s3.amazonaws.com/libapps/accounts/246/images/noun_38074_cc.png" style="height:18px; padding-right: 3px;" />Type
+	<li class="grey"><img src="//s3.amazonaws.com/libapps/accounts/246/images/noun_38074_cc.png" style="height:18px; padding-right: 3px;" />Type
 	<ul>
 		<li><a href="/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=96&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=main+dresses">Main Dresses</a></li>
 		<li><a href="/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=96&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=outerwear">Outerwear</a></li>
@@ -41,7 +41,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 		<li><a href="/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=59&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=burgundy">Burgundy</a></li>
 	</ul>
 	</li>
-	<li class="grey"><img src="https://s3.amazonaws.com/libapps/accounts/246/images/noun_17749_cc.png" style="height:18px; padding-right: 3px;" />Decade
+	<li class="grey"><img src="//s3.amazonaws.com/libapps/accounts/246/images/noun_17749_cc.png" style="height:18px; padding-right: 3px;" />Decade
 	<ul>
 		<li><a href="/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=64&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=crinoline">Crinoline</a></li>
 		<li><a href="/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=64&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=romantic">Romantic</a></li>
@@ -61,7 +61,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 		<li><a href="/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=64&amp;advanced%5B0%5D%5Btype%5D=is+exactly&amp;advanced%5B0%5D%5Bterms%5D=2010s">2010s</a></li>
 	</ul>
 	</li>
-	<li class="grey"><img src="https://s3.amazonaws.com/libapps/accounts/246/images/noun_114056_cc.png" style="height:18px; padding-right: 3px;" />Nationality
+	<li class="grey"><img src="//s3.amazonaws.com/libapps/accounts/246/images/noun_114056_cc.png" style="height:18px; padding-right: 3px;" />Nationality
 	<ul>
 		<li><a href="/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=53&amp;advanced%5B0%5D%5Btype%5D=contains&amp;advanced%5B0%5D%5Bterms%5D=american">American</a></li>
 		<li><a href="/omeka/items/browse?advanced%5B0%5D%5Belement_id%5D=53&amp;advanced%5B0%5D%5Btype%5D=contains&amp;advanced%5B0%5D%5Bterms%5D=belgian">Belgian</a></li>
