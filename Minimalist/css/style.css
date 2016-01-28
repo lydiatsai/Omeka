@@ -22,10 +22,6 @@ summary {
   display: block;
 }
 
-article {
-    min-height: 550px;
-}
-
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
@@ -111,7 +107,7 @@ a:hover {
  */
 h1 {
   font-size: 2em;
-  margin: 0.5em 0;
+  margin: 0.67em 0;
 }
 
 /**
@@ -516,7 +512,7 @@ body {
   background-color: #fff;
   font-family: "Lato", Verdana, Arial, sans-serif;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 24px;
   color: #444;
   margin: 0;
 }
@@ -614,7 +610,7 @@ body {
 }
 
 #content {
-  padding: 1em 0 1em 0;
+  padding: 1em 0 2em 0;
   overflow: auto;
 }
 
@@ -672,8 +668,8 @@ footer {
 h1, h2, #item-filters .collection, h3, h4, h5, h6 {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
   font-weight: normal;
-  line-height: 30px;
-  padding: .2em 0;
+  line-height: 36px;
+  padding: .5em 0;
   margin: 0;
   color: #555;
 }
@@ -716,8 +712,8 @@ h6 {
   /* text-transform: uppercase; */
   font-size: 40px;
   font-weight: bold;
-  line-height: 40px;
-  margin: 5px 0;
+  line-height: 48px;
+  margin: 20px 0;
 }
 #site-title a {
   text-decoration: none;
@@ -806,111 +802,66 @@ a:hover {
 
 /* NEW facet-nav */
 
-.facet-nav > ul,
-#facet-nav > ul{
-	width: 600px;
-	margin:5px auto;
+.facet-nav ul,
+#facet-nav ul
+{ 
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.facet-nav > span,
-#facet-nav > span {
-  line-height:52px;
-  padding: 0 5px;
+.facet-nav li,
+#facet-nav li
+{
+  width: 16%;
+  border-bottom: none;
+  display: inline-block;
+  float: left;
+  padding: 0.2em;
+  background-color: #eaeaea;
+  border: 1px dotted #D81E05;
 }
 
-.facet-nav > ul > li,
-#facet-nav > ul > li{ /* will style only the top level li */
-	list-style: none;
-	box-shadow: 0 0 15px rgba(100, 100, 100, 0.2) inset,1px 1px 1px #ccc;
-	display: inline-block;
-    float: left;
-	line-height: 1;
-	margin: 3px;
-    padding: 10px 5px 10px 5px;
-	border-radius: 3px;
-	position:relative;
-    width: 125px;
-    text-align: center;
-    font-size: 16px;
-}
+.facet-nav li:hover, a:hover,
+#facet-nav li:hover, a:hover
+{background-color: #fff;}
 
 .facet-nav li ul,
-#facet-nav li ul{
-	position:absolute;
-	list-style:none;
-	text-align:center;
-	width:170px;
-	left:50%;
-	margin-left:-100px;
-	top:20px;
-	font:bold 12px 'Open Sans Condensed', sans-serif;
-
-	/* This is important for the show/hide CSS animation */
-	max-height:0px;
-	overflow:hidden;
-
-	-webkit-transition:max-height 0.4s linear;
-	-moz-transition:max-height 0.4s linear;
-	transition:max-height 0.4s linear;
-}
+#facet-nav li ul
+{
+   display: none;  /* Hides the drop-down menu */
+   height: auto;									
+   margin: 0; /* Aligns drop-down box underneath the menu item */
+   padding: 0; /* Aligns drop-down box underneath the menu item */			
+}				
 
 .facet-nav li:hover ul,
-#facet-nav li:hover ul{
-	max-height:600px;
+#facet-nav li:hover ul
+{
+  display: block; /* Displays the drop-down box when the menu item is hovered over */
+  z-index: 50; /* TRY */
 }
-
 .facet-nav li ul li,
-#facet-nav li ul li{
-	background-color:#313131;
-}
-
-.facet-nav li ul li a,
-#facet-nav li ul li a{
-	padding:4px;
-	color:#fff !important;
-	text-decoration:none !important;
-	display:block;
-}
-.facet-nav li ul li:nth-child(odd),
-#facet-nav li ul li:nth-child(odd){ /* zebra stripes */
-	background-color:#363636;
-}
+#facet-nav li ul li
+{ 
+  float: none;
+  font-weight: normal;
+  border: none;
+  background-color: #fff;
+  width:100%;
+} 
 
 .facet-nav li ul li:hover,
-#facet-nav li ul li:hover{
-	background-color:#444;
+#facet-nav li ul li:hover
+{
+  background-color: #eaeaea;
 }
 
-.facet-nav li ul li:first-child,
-#facet-nav li ul li:first-child{
-	border-radius:3px 3px 0 0;
-	margin-top:25px;
-	position:relative;
+.facet-nav li ul li a:hover,
+#facet-nav li ul li a:hover
+{
+  background-color: #eaeaea;
 }
-
-.facet-nav li ul li:first-child:before,
-#facet-nav li ul li:first-child:before{ /* the pointer tip */
-	content:'';
-	position:absolute;
-	width:1px;
-	height:1px;
-	border:5px solid transparent;
-	border-bottom-color:#313131;
-	/*left:50%;*/
-	top:-10px;
-	margin-left:-5px;
-}
-
-.facet-nav li ul li:last-child,
-#facet-nav li ul li:last-child{
-	border-bottom-left-radius:3px;
-	border-bottom-right-radius:3px;
-}
-
-.facet-nav li.grey,
-#facet-nav li.grey{color:#000000;}
-
-/* END facet-nav */
 
 .pagination {
   margin: 0;
@@ -918,7 +869,7 @@ a:hover {
   border: 0;
   overflow: hidden;
   *zoom: 1;
-  margin: 5px 0;
+  margin: 1em 0;
 }
 .pagination li {
   list-style-image: none;
@@ -1079,46 +1030,46 @@ a:hover {
 /* -------------------------------------------------------------------------*/
 /* Top Navigation - Mega Menu Styles */
 #top-nav {
-  min-height: 20px;
+  min-height: 40px;
   /*    position:relative;
   */
 }
 #top-nav .nav-menu {
   overflow: auto;
-  background-color: #fff; 
+  background-color: #eaeaea; 
 }
 #top-nav .nav-menu .active {
-  background-color: #fff;  /* was 8164b2 */
+  background-color: #D81E05;  /* was 8164b2 */
 }
 #top-nav .nav-menu .active a {
-  color: #D81E05;
+  color: white;
 }
 #top-nav li {
   display: block;
   width: 100%;
 }
 #top-nav li .active a {
-  color: #D81E05;
+  color: white;
 }
 #top-nav li a {
   display: block;
   padding: 1em 0 1em 1em;
 }
 #top-nav li a:hover {
-  background-color: #fff; /*COLOR WAS 684B98 */
-  color: #D81E05;
+  background-color: #D81E05; /*COLOR WAS 684B98 */
+  color: white;
   text-decoration: none;
 }
 #top-nav li:last-of-type {
   border-color: transparent;
 }
 #top-nav li a.open {
-  color: #D81E05;
-  background-color: #fff; /* was 684B98 */
+  color: white;
+  background-color: #004687; /* was 684B98 */
 }
 #top-nav .sub-nav {
   display: none;
-  background-color: #fffs;
+  background-color: #f7f7f7;
 }
 #top-nav .sub-nav.open {
   display: block;
@@ -1132,17 +1083,17 @@ a:hover {
   padding: 0;
 }
 #top-nav .sub-nav.open li a {
-  color: #fff; /* was 684B98 */
+  color: #004687; /* was 684B98 */
   padding: 1em;
   border-bottom: 1px solid white;
 }
 #top-nav .sub-nav.open li a:hover {
-  color: #D81E05;
+  color: white;
   text-decoration: none;
-  background-color: #fff; /* was cf9ad9 */
+  background-color: #0084FF; /* was cf9ad9 */
 }
 #top-nav .sub-nav.open .active a {
-  color: #D81E05;
+  color: white;
 }
 #top-nav .sub-nav.open ul a:before {
   content: "\2014\0020";
@@ -2183,4 +2134,4 @@ body.files .item-file {
 
 /*CSS for item type metadata */
 
-#costume-item-type-metadata-image {padding-bottom: 50%;}
+#costume-item-type-metadata-image {margin: 0em 0em 100% 0em;}
